@@ -20,7 +20,7 @@
   
   .main-container {
     width: 100%;
-    max-width: 1440px;
+    max-width: 100%;
     padding: 0 50px;
     box-sizing: none;
   }
@@ -362,10 +362,10 @@
   }
   
   /* Small devices (phones, less than 768px) */
-  @media screen and (max-width: 767.98px) {
+  @media (max-width: 767.98px) {
     /* Small devices (smartphone, less/equal than 768px) */
     body {
-      width: 100%;
+      max-width: 100%;
       height: 100%;
       margin: 0%;
       padding: 0 0 0 1em;
