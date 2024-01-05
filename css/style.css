@@ -22,7 +22,7 @@ body {
   width: 100%;
   max-width: 100%;
   padding: 0 50px;
-  box-sizing: none;
+  box-sizing: unset;
 }
 
 a {
@@ -147,7 +147,7 @@ a {
 
 .filter {
   display: flex;
-  justify-content: space-between;
+  justify-content: unset;
   width: 50%;
   font-weight: bold;
 }
@@ -276,7 +276,7 @@ a {
 /* Activités */
 
 .activities {
-  background-color: none;
+  background-color: transparent;
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -525,15 +525,15 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: none;
+    height: unset;
   }
   .hebergements-cards-img {
     width: 100%;
-    height: none;
+    height: 8em;
   }
   /* Activités */
   .activities {
-    background-color: none;
+    background-color: transparent;
     padding: 0%;
     margin-top: 3em;
   }
